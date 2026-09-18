@@ -5,12 +5,13 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-clicks"
   },
   "dependencies": {
-    "@slidev/cli": "^52.19.0",
+    "@slidev/cli": "^52.19.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.33"
+    "playwright-chromium": "^1.63.0",
+    "vue": "^3.5.42"
   }
 }
